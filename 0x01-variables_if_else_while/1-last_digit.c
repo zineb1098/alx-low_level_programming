@@ -1,7 +1,10 @@
+#include <stdio.h>
+ #include <stdlib.h>
+  #include <time.h>
 /**
 * main - prints the last digit of a randomly generated number
-* and weather it is greater than 5, less than 6, or 0.
 *
+* and weather it is greater than 5, less than 6, or 0.
 * Return: Always 0 (Success)
 */
 int main(void)
