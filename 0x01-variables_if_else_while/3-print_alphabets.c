@@ -1,19 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - Entry point
- *
+ * main - prints the alphabet in lowercase, and then in uppercase,
+ * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char alp[26] = "ABCDEFGHI JKLMNOPQRSTUVWXYZ";
-int i;
-for (i = 0; i < 26; i++)
-{
-putchar(alp[i]);
-}
+int ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+putchar(ch);
+for (ch = 'A'; ch <= 'Z'; ch++)
+putchar(ch);
 putchar('\n');
 return (0);
 }
